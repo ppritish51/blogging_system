@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
+local_settings.py
+
+# Logs and media
+logs/
+media/
+
+# Dependency directories
+venv/
+venv-staging/
+node_modules/
+
+# Other Django specific files
+*.log
+db.sqlite3
+.env
+.env.*
+.idea
+.vscode/
+
+# macOS specific files to ignore
+*.DS_Store
+ChatGptHelper/ChatGptHelperExtension/*
+00*
+staticfiles/*
+tests/assests/*
+control/*
